@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your JEE Journey</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+        body {
+            background: linear-gradient(to right, #FFDEE9, #B5FFFC); /* Soft pink to light blue gradient */
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-size: 200% 200%;
+            animation: gradientShift 15s ease infinite;
+        }
+
+        @keyframes gradientShift {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .container {
+            background-color: rgba(255, 255, 255, 0.9); /* White with slight transparency */
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 80%;
+            max-width: 800px;
+            transition: transform 0.5s, box-shadow 0.5s;
+        }
+
+        .container:hover {
+            transform: scale(1.02);
+            box-shadow: 0 25px 45px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            color: darkblue; /* Dark Blue */
+            font-size: 2.8em;
+            margin-bottom: 20px;
+            animation: fadeInDown 1.5s ease forwards;
+        }
+
+        p.shayari {
+            color: darkblue; /* Dark Blue */
+            font-size: 1.6em;
+            background-color: #f2fbbd; /* Light cream */
+            padding: 20px;
+            border-radius: 15px;
+            font-style: italic;
+            line-height: 1.8;
+            margin-bottom: 30px;
+            animation: fadeInUp 2s ease forwards;
+        }
+
+        footer p {
+            color: red; /* Red for footer */
+            font-size: 1.3em;
+            margin-top: 20px;
+            animation: fadeInUp 2.5s ease forwards;
+        }
+
+        .made-by {
+            font-size: 1.2em;
+            margin-top: 10px;
+            font-style: italic;
+        }
+
+        .ilyie {
+            font-size: 1.5em;
+            color: #e74c3c; /* Bold red */
+            margin-top: 15px;
+            font-style: italic;
+        }
+
+        @keyframes fadeInDown {
+            0% { opacity: 0; transform: translateY(-20px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes fadeInUp {
+            0% { opacity: 0; transform: translateY(30px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Your JEE Journey</h1>
+        <p class="shayari">
+            "Nandini, teri mehnat ka phal milne ko hai,<br>
+            JEE ka exam, tu hai tayyar, dil se khelne ko hai.<br>
+            Sapne hain tere, IIT ka khwab saja hai,<br>
+            Har din ki mehnat se tu na rukna, ye bhagwan ka vishwas hai.<br><br>
+            
+            Badhte jaa, kadam kadam par, tu hai sabse aage,<br>
+            Har mushkil ko tu samjhe, asan kar de apne saath.<br>
+            Mehnat se hi milta hai, jeet ka jashn,<br>
+            Nandini, tu hai chamak, tujhme hai asmaan ka shaan.<br><br>
+            
+            JEE ka exam, ek kadam hai tere sapno ki or,<br>
+            IIT ka safar, hai tere liye khuda ka noor.<br>
+            Tere sapno ki udaan, ab bas chhodna hai tu khud ko,<br>
+            Har mushkil ka samna kar, bas chali ja, tu khud ko. "
+        </p>
+    </div>
+    <footer>
+        <p class="made-by">Made by your Mimansh bhaiya</p>
+        <p class="ilyie">ilyie 🥀🤌🏻</p>
+    </footer>
+</body>
+</html>
